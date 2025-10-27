@@ -1,0 +1,10 @@
+# hello_world.py
+# A simple Python script to print a greeting message.
+
+def greet(name: str):
+    """Prints a personalized greeting."""
+    return f"Hello, {name}! Welcome to my GitHub repo 🎉"
+
+if __name__ == "__main__":
+    user = input("What's your name? ")
+    print(greet(user))
